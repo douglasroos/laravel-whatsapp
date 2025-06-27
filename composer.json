@@ -18,7 +18,7 @@
     "require": {
         "php": "^7.3 | ^8.0 | ^8.1 | ^8.2 | ^8.3 | ^8.4 | ^8.5",
         "illuminate/contracts": "^7.0 | ^8.0 | ^9.0 | ^10.0 | ^11.0 | ^12.0",
-        "sawirricardo/whatsapp-php": "^0.0.5",
+        "sawirricardo/whatsapp-php": "dev-main",
         "spatie/laravel-package-tools": "^1.7 | ^1.8.0 | ^1.9.2"
     },
     "require-dev": {
@@ -34,6 +34,12 @@
         "phpunit/phpunit": "^9.5",
         "spatie/laravel-ray": "^1.26"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:douglasroos/whatsapp-php.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Sawirricardo\\Whatsapp\\Laravel\\": "src"
